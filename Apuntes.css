@@ -1,0 +1,223 @@
+body{
+    background-color: black;    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-items: center;
+    justify-content: center;
+    }
+
+    @media (max-width: 1500px){ 
+      body {
+        grid-template-columns: repeat(4, 1fr);
+      }
+    }
+
+    @media (max-width: 1450px){ 
+      body {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    
+
+    @media (max-width: 1100px){ 
+      body {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 750px){ 
+      body {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+
+
+    @keyframes pulso{
+
+      0%{-webkit-transform:rotateZ(0deg)  }
+   
+      50%{-webkit-transform:rotateZ(0deg) scale(1.01); }
+    
+
+    }
+
+#boton{
+  border-radius: 5%;
+  animation: pulso 3s infinite linear alternate;
+}
+
+.uno{
+    width: 350px;
+    height: 400px;
+    background-image: url(trigonometria.jpg);
+    cursor: pointer;
+    margin-top: 60px;
+  font-size: 20px;
+}
+
+
+.dos{
+    width: 350px;
+    height: 400px;
+    background-image: url(demostracion.jpg);
+    cursor: pointer;
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+mark{
+    background-color: white;
+}
+
+.tres{
+    width: 350px;
+    height: 400px;
+    background-image: url(vecR2.jpg);
+    cursor: pointer;
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.cuatro{
+    width: 350px;
+    height: 400px;
+    background-image: url(log.png);
+    cursor: pointer;
+    margin-top: 60px;
+    font-size: 20px;
+}
+.cinco{
+    width: 350px;
+    height: 400px;
+    background-image: url(binomio.jpg);
+    cursor: pointer;
+    margin-top: 60px;
+    font-size: 20px;
+}
+.seis{
+    width: 350px;
+    height: 400px;
+    background-image: url(dinamica.jfif);
+    cursor: pointer;
+    margin-top: 60px;
+    font-size: 20px;
+}
+.siete{
+    width: 350px;
+    height: 400px;
+    background-image: url(cinematica.jpg);
+    cursor: pointer;
+    margin-top: 60px;
+    font-size: 20px;
+}
+.ocho{
+    width: 350px;
+    height: 400px;
+    background-image: url(errores.jfif);
+    cursor: pointer;
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+
+.li{
+    width: 250px;
+    height: 40px;
+    font-family: "Playfair Display";
+  }
+  
+  .li:hover{
+    background-color: rgb(134, 76, 76);
+   
+  }
+
+
+  input#abrir-cerrar { 
+    visibility:hidden;
+    position: absolute;
+
+}
+
+.toggle-button {
+    display:block;
+    width:50px;
+    height:50px;
+    border:none;
+    position:absolute;
+    cursor: pointer;
+    box-sizing: border-box;
+    position: fixed;
+    right: 0;
+z-index: 9999;
+top: 0;
+    
+}
+
+.toggle-button:before, .toggle-button:after {
+  position:absolute;
+  display:block;
+  content:" ";
+  width: calc(100% / 2);               
+  box-sizing: border-box;
+  left: calc(100% / 4);
+  transition: all 0.2s ease-out;
+}
+
+.toggle-button:before {
+  top: calc(100% / 4);
+  height:calc(100% / 4);
+  border-top:1px solid rgb(255, 255, 255);
+  border-bottom:1px solid rgb(255, 255, 255);
+  background-color: transparent;
+}
+
+.toggle-button:after {
+  height:1px;
+  background-color:rgb(255, 255, 255);
+  bottom:calc(100% / 4);
+}
+
+input#abrir-cerrar:checked + .toggle-button:before, input#abrir-cerrar:checked + .toggle-button:after {
+  top:calc(100% / 2);
+  height:1px;
+  border-bottom:0;
+}
+
+input#abrir-cerrar:checked + .toggle-button:before {
+  transform: rotate(45deg); 
+}
+
+input#abrir-cerrar:checked + .toggle-button:after {
+  transform: rotate(-45deg);
+}
+
+
+.menu-emergente {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  z-index: 9999;
+  background-color: #ffffffb0;
+  border-radius: 10%;
+  box-shadow: 100px 100px 100px rgba(0, 0, 0, 0.5);
+  width: 300px;
+  height: 150px;
+}
+
+#abrir-cerrar:checked ~ .menu-emergente {
+  display: block;
+}
+
+
+a{
+  text-decoration: none;
+  color: rgb(1, 1, 1);
+
+}
+
+
+
