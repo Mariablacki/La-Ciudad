@@ -4,7 +4,6 @@ body{
     background-image: url('LA\ CIUDAD\ \(2\)\ 2.png');
     background-size: cover;
     background-position: center center;
-    margin-right: -10px;
     display: flex;
     flex-direction: column;
   }
@@ -69,6 +68,12 @@ body{
         font-size: 20px;
         letter-spacing: 4px;
         text-align: center;
+        place-items: center;
+      }
+      body{
+        background-repeat: no-repeat;
+    background-position: center; 
+    background-size: cover;
       }
     }
   
