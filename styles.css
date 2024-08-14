@@ -1,6 +1,5 @@
 body{
     overflow: hidden;
-    height: 720px;
     background-image: url('LA\ CIUDAD\ \(2\)\ 2.png');
     background-size: cover;
     background-position: center center;
@@ -51,7 +50,7 @@ body{
   /* Computadoras portátiles y tablets grandes */
   @media (min-width: 992px) and (max-width: 1199px) {
     .pepa {
-      font-size: 42px;
+      font-size: 60px;
       text-align: center;
     }
     body{
@@ -222,6 +221,22 @@ body{
     animation: rotarload 1s linear infinite;
     transform: rotate(0deg);
   }
+
+  @media (max-width: 800px) and (max-height: 600px) {
+    .loader {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+/* Media query para pantallas pequeñas */
+@media (max-width: 500px) and (max-height: 400px) {
+    .loader {
+        width: 100px;
+        height: 100px;
+    }
+}
+
   @keyframes rotarload {
       0%   {transform: rotate(0deg)}
       100% {transform: rotate(360deg)}
