@@ -33,7 +33,7 @@ body{
   
     @media (max-width: 1000px) and (max-height: 800px){
       .pepa {
-        font-size: 40px;
+        font-size: 43px;
       text-align: center;
  
       }
@@ -41,6 +41,7 @@ body{
         background-repeat: no-repeat;
     background-position: center; 
     background-size: cover;
+    height: 100%;
       }
     }
     @media (max-width: 900px) and (max-height: 600px){
@@ -52,6 +53,7 @@ body{
         background-repeat: no-repeat;
     background-position: center; 
     background-size: cover;
+    height: 100%;
       }
     }
     @media (max-width: 700px) and (max-height: 500px){ 
@@ -63,6 +65,7 @@ body{
         background-repeat: no-repeat;
     background-position: center; 
     background-size: cover;
+    height: 100%;
       }
     }
   
@@ -75,6 +78,7 @@ body{
         background-repeat: no-repeat;
     background-position: center; 
     background-size: cover;
+    height: 100%;
       }
     }
     @media (max-width: 400px) and (max-height: 200px){ 
@@ -87,6 +91,7 @@ body{
         background-repeat: no-repeat;
     background-position: center; 
     background-size: cover;
+    height: 100%;
       }
     }
     @media (max-width: 300px) and (max-height: 200px){ 
@@ -100,6 +105,7 @@ body{
         background-repeat: no-repeat;
     background-position: center; 
     background-size: cover;
+    height: 100%;
       }
     }
   
