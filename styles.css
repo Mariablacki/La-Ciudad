@@ -36,7 +36,7 @@ body{
 
     @media (min-width: 1200px) {
       .pepa {
-        font-size: 48px;
+        font-size: 60px;
         text-align: center;
       }
       body{
@@ -51,7 +51,7 @@ body{
   /* Computadoras portátiles y tablets grandes */
   @media (min-width: 992px) and (max-width: 1199px) {
     .pepa {
-      font-size: 60px;
+      font-size: 42px;
       text-align: center;
     }
     body{
@@ -59,6 +59,9 @@ body{
   background-position: center; 
   background-size: cover;
   height: 100%;
+    }
+    footer{
+      display: none;
     }
   }
   
@@ -74,6 +77,9 @@ body{
   background-size: cover;
   height: 100%;
     }
+    footer{
+      display: none;
+    }
   }
   
   /* Dispositivos móviles grandes (en modo paisaje) */
@@ -88,6 +94,9 @@ body{
   background-size: cover;
   height: 100%;
     }
+    footer{
+      display: none;
+    }
   }
   
   /* Dispositivos móviles medianos y pequeños (en modo retrato) */
@@ -95,6 +104,9 @@ body{
     .pepa {
       font-size: 28px;
       text-align: center;
+    }
+    footer{
+      display: none;
     }
     body{
 
@@ -115,6 +127,9 @@ body{
   background-position: center; 
   background-size: cover;
   height: 100%;
+    }
+    footer{
+      display: none;
     }
   }
 
