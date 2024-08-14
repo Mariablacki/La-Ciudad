@@ -33,7 +33,7 @@ body{
   
     @media (max-width: 1000px) and (max-height: 800px){
       .pepa {
-        font-size: 100px;
+        font-size: 60px;
       text-align: center;
       }
     }
