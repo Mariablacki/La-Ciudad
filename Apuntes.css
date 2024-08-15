@@ -1,5 +1,5 @@
 body{
-    background-image: url(cornered-stairs\ \(1\).svg);
+    background-image: url(pattern_brick_color.png);  
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     place-items: center;
