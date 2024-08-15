@@ -48,6 +48,7 @@ body{
 .toggle-button{
   align-self: center;
   place-content: center;
+  right: 50%;
 }
     }
   
@@ -70,6 +71,7 @@ body{
     .toggle-button{
       align-self: center;
       place-content: center;
+      right: 50%;
     }
   }
   
@@ -91,6 +93,7 @@ body{
     .toggle-button{
       align-self: center;
       place-content: center;
+      right: 50%;
     }
   }
   
@@ -112,6 +115,7 @@ body{
     .toggle-button{
       align-self: center;
       place-content: center;
+      right: 50%;
     }
   }
   
@@ -133,6 +137,7 @@ body{
     .toggle-button{
       align-self: center;
       place-content: center;
+      right: 50%;
     }
   }
   
@@ -141,6 +146,7 @@ body{
     .pepa {
       font-size: 24px;
       text-align: center;
+      right: 50%;
     }
     body{
       
@@ -154,6 +160,7 @@ body{
     .toggle-button{
       align-self: center;
       place-content: center;
+      right: 50%;
     }
   }
 
@@ -209,19 +216,7 @@ body{
     }
   
     
-    span{
-  
-    color: #ffffff;
-    margin-left: 40px;
-    margin-top: 6px;
-    margin-right: 30px;
-    font-family: 'EB Garamond', serif;
-  }
-  
-  span:hover{
-    color: rgb(156, 156, 156);
-  }
-  
+
   
   .custom-cursor {
     position: absolute;
