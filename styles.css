@@ -45,10 +45,10 @@ body{
     background-size: cover;
     height: 100%;
       }
-
-      .toggle-button{
-        margin-right: 30px;
-      }
+.toggle-button{
+  align-self: center;
+  place-content: center;
+}
     }
   
   
@@ -68,7 +68,8 @@ body{
       display: none;
     }
     .toggle-button{
-      margin-right: 30px;
+      align-self: center;
+      place-content: center;
     }
   }
   
@@ -88,7 +89,8 @@ body{
       display: none;
     }
     .toggle-button{
-      margin-right: 30px;
+      align-self: center;
+      place-content: center;
     }
   }
   
@@ -108,7 +110,8 @@ body{
       display: none;
     }
     .toggle-button{
-      margin-right: 30px;
+      align-self: center;
+      place-content: center;
     }
   }
   
@@ -128,7 +131,8 @@ body{
   height: 100%;
     }
     .toggle-button{
-      margin-right: 30px;
+      align-self: center;
+      place-content: center;
     }
   }
   
@@ -148,7 +152,8 @@ body{
       display: none;
     }
     .toggle-button{
-      margin-right: 30px;
+      align-self: center;
+      place-content: center;
     }
   }
 
