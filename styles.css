@@ -67,6 +67,9 @@ body{
     footer{
       display: none;
     }
+    .toggle-button{
+      right: 20px;
+    }
   }
   
   /* Tablets en orientación vertical y dispositivos de tamaño medio */
@@ -83,6 +86,9 @@ body{
     }
     footer{
       display: none;
+    }
+    .toggle-button{
+      right: 20px;
     }
   }
   
@@ -101,6 +107,9 @@ body{
     footer{
       display: none;
     }
+    .toggle-button{
+      right: 20px;
+    }
   }
   
   /* Dispositivos móviles medianos y pequeños (en modo retrato) */
@@ -118,6 +127,9 @@ body{
   background-size: cover;
   height: 100%;
     }
+    .toggle-button{
+      right: 20px;
+    }
   }
   
   /* Dispositivos móviles muy pequeños */
@@ -134,6 +146,9 @@ body{
     }
     footer{
       display: none;
+    }
+    .toggle-button{
+      right: 20px;
     }
   }
 
