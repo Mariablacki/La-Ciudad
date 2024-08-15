@@ -45,11 +45,6 @@ body{
     background-size: cover;
     height: 100%;
       }
-.toggle-button{
-  align-self: center;
-  place-content: center;
-  right: 50%;
-}
     }
   
   
@@ -68,11 +63,7 @@ body{
     footer{
       display: none;
     }
-    .toggle-button{
-      align-self: center;
-      place-content: center;
-      right: 50%;
-    }
+
   }
   
   /* Tablets en orientación vertical y dispositivos de tamaño medio */
@@ -90,11 +81,7 @@ body{
     footer{
       display: none;
     }
-    .toggle-button{
-      align-self: center;
-      place-content: center;
-      right: 50%;
-    }
+
   }
   
   /* Dispositivos móviles grandes (en modo paisaje) */
@@ -112,11 +99,7 @@ body{
     footer{
       display: none;
     }
-    .toggle-button{
-      align-self: center;
-      place-content: center;
-      right: 50%;
-    }
+
   }
   
   /* Dispositivos móviles medianos y pequeños (en modo retrato) */
@@ -134,11 +117,7 @@ body{
   background-size: cover;
   height: 100%;
     }
-    .toggle-button{
-      align-self: center;
-      place-content: center;
-      right: 50%;
-    }
+
   }
   
   /* Dispositivos móviles muy pequeños */
@@ -157,11 +136,7 @@ body{
     footer{
       display: none;
     }
-    .toggle-button{
-      align-self: center;
-      place-content: center;
-      right: 50%;
-    }
+ 
   }
 
   
@@ -306,7 +281,7 @@ body{
     cursor: pointer;
     box-sizing: border-box;
     position: fixed;
-  
+    right: 0;
 
     
 }
