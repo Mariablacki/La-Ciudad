@@ -45,6 +45,10 @@ body{
     background-size: cover;
     height: 100%;
       }
+
+      .toggle-button{
+        right: 20px;
+      }
     }
   
   
