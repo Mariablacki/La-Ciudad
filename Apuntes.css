@@ -1,5 +1,5 @@
 body{
-    background-color: black;    
+    background-image: url(cornered-stairs\ \(1\).svg);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     place-items: center;
@@ -118,6 +118,15 @@ mark{
     cursor: pointer;
     margin-top: 60px;
     font-size: 20px;
+}
+
+.nueve{
+  width: 350px;
+  height: 400px;
+  background-image: url(energia_potencial_y_cinetica.jpg);
+  cursor: pointer;
+  margin-top: 60px;
+  font-size: 20px;
 }
 
 
