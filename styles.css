@@ -47,7 +47,7 @@ body{
       }
 
       .toggle-button{
-        right: 20px;
+        margin-right: 30px;
       }
     }
   
@@ -68,7 +68,7 @@ body{
       display: none;
     }
     .toggle-button{
-      right: 20px;
+      margin-right: 30px;
     }
   }
   
@@ -88,7 +88,7 @@ body{
       display: none;
     }
     .toggle-button{
-      right: 20px;
+      margin-right: 30px;
     }
   }
   
@@ -108,7 +108,7 @@ body{
       display: none;
     }
     .toggle-button{
-      right: 20px;
+      margin-right: 30px;
     }
   }
   
@@ -128,7 +128,7 @@ body{
   height: 100%;
     }
     .toggle-button{
-      right: 20px;
+      margin-right: 30px;
     }
   }
   
@@ -148,7 +148,7 @@ body{
       display: none;
     }
     .toggle-button{
-      right: 20px;
+      margin-right: 30px;
     }
   }
 
