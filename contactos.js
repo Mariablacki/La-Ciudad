@@ -21,5 +21,3 @@ document.getElementById("scroll-right").addEventListener("click", () => {
 });
 
 
-
-

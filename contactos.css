@@ -77,12 +77,47 @@ animation: move 1.5s infinite linear alternate;
 .lo {
   font-size: 25px;
   width: 13.5em;
-  height: 4em;
+  height: 3em;
   color: rgb(0, 0, 0);
   border-left: 0.08em solid;
   position: relative;
   margin-top: 0.8em;
   cursor: pointer;
+}
+
+#uno:hover::after{
+  content: "LETRAS";
+  margin: 30px;
+}
+
+#dos:hover::after{
+  content: "CIENCIAS";
+  margin: 30px;
+}
+
+#tres:hover::after{
+  content: "LETRAS";
+  margin: 30px;
+}
+
+#cuatro:hover::after{
+  content: "CIENCIAS";
+  margin: 30px;
+}
+
+#cinco:hover::after{
+  content: "CIENCIAS";
+  margin: 30px;
+}
+
+#seis:hover::after{
+  content: "LETRAS";
+  margin: 30px;
+}
+
+.lo:hover .lulu{
+  display: none;
+  
 }
 
 @media (max-width: 700px) {
